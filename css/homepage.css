@@ -6,3 +6,86 @@ body, html {height: 100%}
   background-position: center;
   background-size: cover;
 }
+label {
+display: inline-block;
+margin-bottom: .5rem;
+}
+.zip-box {
+  margin-top: 20px;
+  display: block;
+    width: 100%;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s
+}
+.form-text {
+  display: block;
+  padding: 20px;
+  margin-top: .25rem;
+  width: 100%;
+  opacity: 1;
+  color: #ffffff;
+
+}
+  .btn:not(:disabled):not(.disabled) {
+    cursor: pointer;
+}
+.btn-primary {
+
+  color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+    
+    
+}
+.btn {
+  text-align: center;
+  margin:0 auto;
+  padding: 20px;
+    display: inline-block;
+    margin-top: 30px;
+    width: 40%;
+    display: bloc
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+    transition: color .15s;
+    opacity: 1;
+}
+.zip-form {
+  
+    color: #4d4747;
+    background-color:#535353;
+    border-color: #000000;
+    width: 400px;
+    height: 250px;
+    padding: 20px;
+    border-radius: .25rem;
+    border-width: thick;
+    #637
+  
+}
+.line-form {
+  width: 600px;
+  height: 5px;
+  color: #ffffff;
+}
+.top-text {
+  color: #ffffff;
+}

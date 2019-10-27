@@ -1,21 +1,57 @@
 <!DOCTYPE html>
 <html>
+
+  <head>
 <title>PoLoco</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
 <link rel="stylesheet" href= "./css/homepage.css">
+<!-- bootstrap resources-->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</head>
+
 <body>
+<div class="container">
+    <div class="row">
+        <div class="col-sm-4">
+          <p>Test</p>
+        </div>      
+      </div>
+</div>
 
 <div class="bgimg w3-display-container w3-animate-opacity w3-text-white">
   <div class="w3-display-topleft w3-padding-large w3-xlarge">
-    Logo
+    PollLocal
   </div>
+  <div>
+       
+    </div>
+
   <div class="w3-display-middle">
+    <div class = "zipWrapper">
+
+      <form>
+          <div class="zip-form">
+            <label for="exampleInputZipcode"></label>
+            <input type="text" class="zip-box" id="exampleInputZipcode" aria-describedby="emailHelp" placeholder="                    Enter Your County e.g. 11111 " >
+            <button type="submit" class="btn btn-primary center" style="margin-left: 110px;">Enter</button>
+            <style type="text/css"> 
+              #my_centered_buttons { display: flex; justify-content: center; }
+              </style>
+            <small id="zipHelp" class="form-text text-muted">Enter your county and find the candidates in your area.</small>
+         
+          </form>
+          </div>
+          <div>
+
     <h1 class="w3-jumbo w3-animate-top"></h1>
     <hr class="w3-border-grey" style="margin:auto;width:40%">
-    <p class="w3-large w3-center">35 days left</p>
+    <p class="w3-large w3-center"></p>
   </div>
   <div class="w3-display-bottomleft w3-padding-large">
 
