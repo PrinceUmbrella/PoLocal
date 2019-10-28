@@ -118,7 +118,7 @@ function getCandidate(result, owner){
             var k = result[i].candidate.replace(/(\r\n|\n|\r)/gm, "");
             if (result[i].party === "democrat")
             {
-                document.getElementById("c").innerHTML+= "<div class='col-lg-4 col-md-6 mb-4'> <div class='card h-100'> <a href='./candidatePage.html'><img class='card-img-top' src='"+Imageset[k]+"' alt=''></a><div class='card-body'><h4 class='card-title'><a href='#' id='test_"+i+"'>"+ result[i].candidate +"</a></h4><p class='card-text'><button type='button' class='btn btn-outline-danger'>Republican</button></p></div><div class='card-footer findMoreButton'><a type='button' href='../pages/candidatePage.html' class='btn btn-primary' onClick='testJs("+i+")'>Learn More</a></div></div></div>";
+                document.getElementById("c").innerHTML+= "<div class='col-lg-4 col-md-6 mb-4'> <div class='card h-100'> <a href='./candidatePage.html'><img class='card-img-top' src='"+Imageset[k]+"' alt=''></a><div class='card-body'><h4 class='card-title'><a href='#' id='test_"+i+"'>"+ result[i].candidate +"</a></h4><p class='card-text'><button type='button' class='btn btn-outline-primary'>Democrat</button></p></div><div class='card-footer findMoreButton'><a type='button' href='../pages/candidatePage.html' class='btn btn-primary' onClick='testJs("+i+")'>Learn More</a></div></div></div>";
             }
             else if(result[i].party === "republican")
             {
@@ -126,7 +126,7 @@ function getCandidate(result, owner){
             }
             else
             {
-                document.getElementById("c").innerHTML+= "<div class='col-lg-4 col-md-6 mb-4'> <div class='card h-100'> <a href='./candidatePage.html'><img class='card-img-top' src='"+Imageset[k]+"' alt=''></a><div class='card-body'><h4 class='card-title'><a href='#' id='test_"+i+"'>"+ result[i].candidate +"</a></h4><p class='card-text'><button type='button' class='btn btn-outline-danger'>Republican</button></p></div><div class='card-footer findMoreButton'><a type='button' href='../pages/candidatePage.html' class='btn btn-primary' onClick='testJs("+i+")'>Learn More</a></div></div></div>";
+                document.getElementById("c").innerHTML+= "<div class='col-lg-4 col-md-6 mb-4'> <div class='card h-100'> <a href='./candidatePage.html'><img class='card-img-top' src='"+Imageset[k]+"' alt=''></a><div class='card-body'><h4 class='card-title'><a href='#' id='test_"+i+"'>"+ result[i].candidate +"</a></h4><p class='card-text'><button type='button' class='btn btn-outline-warning'>Independent</button></p></div><div class='card-footer findMoreButton'><a type='button' href='../pages/candidatePage.html' class='btn btn-primary' onClick='testJs("+i+")'>Learn More</a></div></div></div>";
             }
             
 
